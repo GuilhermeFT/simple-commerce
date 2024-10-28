@@ -1,6 +1,7 @@
+import '@/styles/globals.css'
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
 
 const inter = Inter({
   weight: ['400', '500', '600', '700'],
