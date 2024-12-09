@@ -2,7 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.animate-pause {
+  animation-play-state: paused;
+}
+
+.animate-play {
+  animation-play-state: running;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }

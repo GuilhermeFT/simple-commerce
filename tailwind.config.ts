@@ -14,6 +14,9 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      animation: {
+        marquee: 'marquee 60s linear infinite',
+      },
     },
   },
   plugins: [tailwindcssAnimate],
